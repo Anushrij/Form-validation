@@ -1,0 +1,68 @@
+*{
+    box-sizzing:border-box;
+    
+}
+
+body{
+    background-color:cadetblue;
+     display:flex;
+       align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+
+}
+
+form{
+    background-color: blueviolet;
+    padding: 3em;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.4);
+}
+.in{
+    boeder-radius:3px;
+    display: block;
+    padding: 0.8vh;
+    padding-left: 4em;
+   
+}
+
+.error{
+    border:  4px solid red;
+   
+}
+
+
+ .success{
+    border:  4px solid palegreen;
+     
+}
+
+small{
+    text-align: center;
+}
+div{
+    padding: 0.7em;
+}
+
+#submit{
+    background-color: cadetblue;
+    text-align: center;
+   width:100%; 
+    height: 6vh;
+    
+
+label{
+    padding-top: 1vh;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 1em;
+        
+}
+    
+
+h2{
+    text-align: center;
+    text-shadow: rgb(0,0,0,0.6);
+    
+    text-transform: uppercase
+}
